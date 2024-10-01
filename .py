@@ -7,9 +7,9 @@ print(f"Seu IMC é {imc:.2f}")
 if imc < 18.5:
     print("Voce está abaixo do peso ideal.")
 elif 18.5 <= imc < 24.9:
-    print("Voce está no peso ideal.")
+    print("Voce está pesando com o peso padrão.")
 elif 25 <= imc < 29.9:
-    print("Voce está sobrepeso.")
+    print("voce está acima do peso.")
 elif 30 <= imc < 34.9:
     print("Voce está com obesidade de grau I")
 elif 35 <= imc < 39.9:
