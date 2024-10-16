@@ -1,0 +1,22 @@
+html {
+    background-color: #333;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.box {
+    padding: 30px;
+}
+
+.box {
+    background-color: crimson;
+    list-style: upper-roman url(transferir-40.png) ;
+}
+
+.item {
+    background-color: blue;
+}

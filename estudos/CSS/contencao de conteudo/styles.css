@@ -1,0 +1,12 @@
+html {
+    background-color: #333;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #999;
+    padding: 20px;
+    overflow: auto;
+    white-space: nowrap;
+}

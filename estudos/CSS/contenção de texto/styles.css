@@ -1,0 +1,49 @@
+html {
+    background-color: #333;
+}
+
+body {
+    font-family: 'Arial' sans-serif;
+}
+
+.box {
+    background-color: #999;
+    padding: 20px;
+    margin-bottom: 15px;
+    word-wrap: normal;
+}
+
+.box-2 {
+    word-wrap: break-word;
+}
+
+.box-3 {
+    word-break: normal;    
+}
+
+.box-4 {
+    word-break: keep-all;
+}
+
+.box-5 {
+    word-break: break-all;
+}
+
+.box-6 {
+    text-align: justify;
+    text-wrap: wrap;
+
+}
+
+.box-7 {
+    text-align: justify;
+    text-wrap: pretty;
+}
+
+.box-8 {
+    text-wrap: nowrap;
+}
+
+.box-9 {
+    white-space: wrap;
+}

@@ -1,0 +1,158 @@
+body {
+    font-family: 'arial', sans-serif;
+    font-size: 19px;
+}
+
+label, p {
+    color: white;
+}
+
+.top .box-1 {
+    background-color: green;
+    border: solid black 2px;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.top .white {
+    display: inline-block;
+    background-color: green;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+
+.group {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.button {
+    margin-left: 20px;
+}
+
+.top button {
+    background: linear-gradient(45deg, #FFD700, #FFC107);
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #FFEB3B, #FFCA28);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);  
+    transform: translateY(-2px);
+}
+
+.top input {
+    width: 20%;
+    border-color: #0dec0d;
+    border-radius: 10px;
+    padding: 5px 8px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.form-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+  
+tr:hover {
+    background-color: #ddd;
+}
+  
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: green;
+    color: white;
+}
+
+ @media screen and (max-width: 768px) {
+            body {
+                font-size: 16px;
+            }
+
+            .form-table {
+                font-size: 27px;
+            }
+
+            .top {
+                flex-direction: column;
+                align-items: flex-start;
+                margin: 10px;
+            }
+
+            button {
+                padding: 8px 15px;
+                font-size: 14px; 
+            }
+
+            .form-table {
+                width: 100%;
+                font-size: 14px;
+            }
+
+            td, th {
+                padding: 6px;
+            }
+
+            .group {
+                width: 100%;
+            }
+
+            .top input {
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            body {
+                font-size: 14px;
+            }
+
+            button {
+                padding: 6px 12px;
+                font-size: 12px;
+            }
+
+            .form-table {
+                font-size: 12px;
+            }
+
+            td, th {
+                padding: 4px;
+            }
+
+            .top {
+                margin: 5px;
+            }
+        }

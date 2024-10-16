@@ -1,0 +1,19 @@
+html {
+    background-color: #333;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #999;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box-2 {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    padding: 20px;
+    box-sizing: content-box;
+}

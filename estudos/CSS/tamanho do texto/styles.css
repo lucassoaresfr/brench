@@ -1,0 +1,24 @@
+html {
+    background-color: #333;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+}
+
+.box {
+    font-size: 25px;
+    background-color: #999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.p-2 {
+    font-size: 20px;
+}
+
+.box-2 {
+    background-color: #999;
+    padding: 20px;
+}

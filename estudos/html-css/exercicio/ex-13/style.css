@@ -1,0 +1,10 @@
+@charset "UTR-8";
+
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}

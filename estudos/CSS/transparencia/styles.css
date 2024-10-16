@@ -1,0 +1,20 @@
+html {
+    background-color: #333;
+}
+
+.box-1 {
+    display: none;
+    width: 300px;
+    height: 300px;
+    background-color: #555555;
+    opacity: 1;
+    visibility: hidden;
+    /* o display none some com o div completamente, como se ele nem existisse
+    já o visibility hidden deixa ele invisivel porem a estrutura do div continua ali. */
+}
+
+.box-2 {
+    width: 300px;
+    height: 300px;
+    background-color: #999;
+}

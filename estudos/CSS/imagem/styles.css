@@ -1,0 +1,18 @@
+html {
+    background-color: #333;
+}
+
+.topo {
+    width: 900px;
+    height: 800px;
+    background-color: #555;
+    background-image: url(imagens/26669.jpg);
+    background-repeat: no-repeat;
+    
+}
+/*
+No  background-position se usa algumas palavras em ingles como:
+bottom = em baixo
+center = centro
+left = esquerda
+right = direita

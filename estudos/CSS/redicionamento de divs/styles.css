@@ -1,0 +1,24 @@
+html {
+    background-color: #333;
+}
+
+body {
+    font-family: 'arial', sans-serif;
+    font-size: 16px;
+}
+
+textarea {
+    display: block;
+    width: 50%;
+    height: 200px;
+    resize: none;
+}
+
+.box-2 {
+    background-color: #999;
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    resize: both;
+    overflow: auto;
+}
