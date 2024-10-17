@@ -6,5 +6,4 @@ function somar() {
     let n2 = Number(tn2.value);
     let s = n1 + n2;
     res.innerHTML = `O resultado da soma foi <strong>${s}</strong>`;
-    
 }
