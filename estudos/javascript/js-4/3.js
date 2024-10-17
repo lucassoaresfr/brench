@@ -14,5 +14,5 @@ a.addEventListener('click', () => {
     a.style.backgroundColor = 'green' ;
     a.textContent = 'Você clicou em mim' ;
 })
-
+estudos/javascript/styles.cssestudos/javascript/styles.css
 
