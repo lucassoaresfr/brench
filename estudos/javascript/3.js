@@ -10,4 +10,9 @@ a.addEventListener('mouseout', () => {
     a.textContent = 'Clique em mim';
 });
 
+a.addEventListener('click', () => {
+    a.style.backgroundColor = 'green' ;
+    a.textContent = 'Você clicou em mim' ;
+})
+
 
