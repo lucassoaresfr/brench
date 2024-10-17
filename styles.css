@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    display: flex; /* Usando flexbox */
+    flex-direction: column; /* Coluna como direção principal */
+    align-items: center; /* Centraliza horizontalmente */
+    margin: 20px; /* Margem ao redor do corpo */
+}
+
+.container {
+    display: flex; /* Usando flexbox para alinhar lado a lado */
+    align-items: center; /* Centraliza verticalmente */
+    margin-bottom: 10px; /* Margem abaixo do contêiner */
+}
+
+input[type="number"] {
+    width: 50px; /* Largura dos inputs */
+    margin: 0 5px; /* Margem horizontal entre os inputs */
+    padding: 5px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+input[type="button"] {
+    padding: 5px 10px; /* Espaçamento interno do botão */
+    margin-top: 15px;
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor em forma de mão ao passar o mouse */
+    background-color: #007BFF; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave da cor de fundo */
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+}
+
+#res {
+    margin-top: 10px; /* Margem acima do resultado */
+    font-size: 18px; /* Tamanho da fonte do resultado */
+}
